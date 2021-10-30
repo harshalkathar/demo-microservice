@@ -4,5 +4,5 @@ kind: Kustomization
 namePrefix: harshal-
 
 resources:
-- nginx-deployment.yaml
-- nginx-svc.yaml
+- deployment.yaml
+- svc.yaml
