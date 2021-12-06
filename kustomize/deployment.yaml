@@ -15,5 +15,5 @@ spec:
         app: nginx
     spec:
       containers:
-      - image: redis
+      - image: nginx:1.0
         name: nginx
