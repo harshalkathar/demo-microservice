@@ -5,6 +5,7 @@ metadata:
     app: nginx
   name: nginx
 spec:
+  replicas: 3
   selector:
     matchLabels:
       app: nginx
@@ -15,4 +16,4 @@ spec:
     spec:
       containers:
         name: nginx
-        image: nginx
+        image: nginx:mainline
